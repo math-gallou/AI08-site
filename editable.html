@@ -328,12 +328,12 @@
                         <div class="silex-element-content normal"><a href="#!page-accueil" class="">Accueil<br></a><a href="#!page-accueil" class=""></a></div>
                     </div><a data-silex-type="text-element" class="editable-style text-element nav-element silex-id-1434634331834-3 nav" data-silex-id="silex-id-1434634331834-3" style="" href="#!page-l-quipe">
                         <div class="silex-element-content normal">L'équipe</div>
-                    </a></div><div data-silex-type="text-element" class="editable-style silex-id-1552774225668-8 text-element prevent-resizable silex-component hide-on-desktop mobile-menu nav prevent-auto-z-index" data-silex-id="silex-id-1552774225668-8"><div class="silex-element-content normal"><style>.hamburger-menu_1641978086177_838 {position: absolute; z-index: 20;}.silex-editor .hamburger-menu_1641978086177_838 nav {left: -9999px;}.hamburger-menu_1641978086177_838 nav ul {margin-top: 80px;}.hamburger-menu_1641978086177_838 nav {opacity: 0; position: absolute; background-color: #ededed; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1641978086177_838.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1641978086177_838 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1641978086177_838.open .nav-container {}.hamburger-menu_1641978086177_838 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1641978086177_838 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
+                    </a></div><div data-silex-type="text-element" class="editable-style silex-id-1552774225668-8 text-element prevent-resizable silex-component hide-on-desktop mobile-menu nav prevent-auto-z-index" data-silex-id="silex-id-1552774225668-8"><div class="silex-element-content normal"><style>.hamburger-menu_1641985170801_31 {position: absolute; z-index: 20;}.silex-editor .hamburger-menu_1641985170801_31 nav {left: -9999px;}.hamburger-menu_1641985170801_31 nav ul {margin-top: 80px;}.hamburger-menu_1641985170801_31 nav {opacity: 0; position: absolute; background-color: #ededed; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1641985170801_31.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1641985170801_31 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1641985170801_31.open .nav-container {}.hamburger-menu_1641985170801_31 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1641985170801_31 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
       opacity 0.1s ease-in,
       transform 0.1s ease-in,
-      background 0.1s ease-in;}.hamburger-menu_1641978086177_838.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1641978086177_838 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1641978086177_838.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1641978086177_838.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1641978086177_838 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1641978086177_838.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
+      background 0.1s ease-in;}.hamburger-menu_1641985170801_31.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1641985170801_31 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1641985170801_31.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1641985170801_31.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1641985170801_31 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1641985170801_31.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1641978086177_838 closed">
+<div class="hamburger-menu_1641985170801_31 closed">
     <div class="hamburger-btn ">
       <span></span>
       <span></span>
@@ -364,26 +364,26 @@
   var isOpen = false;
   function close() {
     isOpen = false;
-    $('.hamburger-menu_1641978086177_838').removeClass('open');
-    $('.hamburger-menu_1641978086177_838').addClass('closed');
+    $('.hamburger-menu_1641985170801_31').removeClass('open');
+    $('.hamburger-menu_1641985170801_31').addClass('closed');
   }
   function open() {
     isOpen = true;
-    $('.hamburger-menu_1641978086177_838').addClass('open');
-    $('.hamburger-menu_1641978086177_838').removeClass('closed');
+    $('.hamburger-menu_1641985170801_31').addClass('open');
+    $('.hamburger-menu_1641985170801_31').removeClass('closed');
   }
   function toggle() {
     if(isOpen) close();
     else open();
   }
-  var silexElement = $('.hamburger-menu_1641978086177_838').closest('.editable-style');
+  var silexElement = $('.hamburger-menu_1641985170801_31').closest('.editable-style');
   function move(data) {
     var offset = silexElement.offset();
-    $('.hamburger-menu_1641978086177_838 .nav-container').css({
+    $('.hamburger-menu_1641985170801_31 .nav-container').css({
       'transform': 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)'
     });
   }
-  $('.hamburger-menu_1641978086177_838 .hamburger-btn').click(function() { toggle(); });
+  $('.hamburger-menu_1641985170801_31 .hamburger-btn').click(function() { toggle(); });
   $(document).on('silex.scroll silex.resize', function(e) {
     close();
     move(window.silex);
@@ -452,5 +452,5 @@
   ici
 </a>
 
-A REDEPLACER À LA FIN DE LA PAGE</div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1641978458906-2 page-cahier-des-charges paged-element" data-silex-id="silex-id-1641978458906-2" style=""><div class="silex-element-content"><h2>Études utilisateurs</h2></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1641984988722-7" data-silex-id="silex-id-1641984988722-7" style=""><div class="silex-element-content"><img src="Images/utilisation_app_planinification.png" alt="oui">
+A REDEPLACER À LA FIN DE LA PAGE</div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1641978458906-2 page-cahier-des-charges paged-element" data-silex-id="silex-id-1641978458906-2" style=""><div class="silex-element-content"><h2>Études utilisateurs</h2></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1641984988722-7" data-silex-id="silex-id-1641984988722-7" style=""><div class="silex-element-content"><img src="Images/utilisation_app_planification.png" alt="oui">
 </div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1641985089923-8" data-silex-id="silex-id-1641985089923-8" style=""><div class="silex-element-content"><p>New HTML box</p></div></div></div></section></body></html>
